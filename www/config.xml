@@ -81,7 +81,7 @@
 
     <!-- see: https://www.npmjs.com/package/cordova-plugin-facebook4 -->
     <gap:plugin name="cordova-plugin-facebook4" source="npm">
-        <param name="APP_ID" value="163553794006372" />
+        <param name="APP_ID" value="163553794006372" /> 
         <param name="APP_NAME" value="Cheat" />
     </gap:plugin>
 
