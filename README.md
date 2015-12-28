@@ -1,2 +1,2 @@
-# phonegap-chess
-Phonegap wrapper for chess
+# phonegap-blokus
+Phonegap wrapper for blokus
