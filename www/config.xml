@@ -3,7 +3,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
-        id          = "com.gamingplatform.blokus"
+        id          = "com.gamingplatform.cheat"
         versionCode = "1"
         version     = "1.0.0" >
     <!-- versionCode is optional and Android only:
@@ -14,7 +14,7 @@
       <string>100</string>
     </gap:config-file>
 
-    <name>Blokus</name>
+    <name>Cheat</name>
     <author email="lawrence.w.yu@gmail.com">
         lawrence.w.yu@gmail.com
     </author>
@@ -81,8 +81,8 @@
 
     <!-- see: https://www.npmjs.com/package/cordova-plugin-facebook4 -->
     <gap:plugin name="cordova-plugin-facebook4" source="npm">
-        <param name="APP_ID" value="433230706875816" />
-        <param name="APP_NAME" value="Blokus" />
+        <param name="APP_ID" value="163553794006372" />
+        <param name="APP_NAME" value="Cheat" />
     </gap:plugin>
 
     <!--
@@ -121,6 +121,6 @@
 
     <!-- https://github.com/EddyVerbruggen/Custom-URL-scheme -->
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-      <param name="URL_SCHEME" value="blokus" />
+      <param name="URL_SCHEME" value="cheat" />
     </gap:plugin>
 </widget>
